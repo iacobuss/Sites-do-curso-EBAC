@@ -1,0 +1,1 @@
+$("form").on("submit",function(a){a.preventDefault();var a=$("#tarefa").val(),t=$("<li></li>");t.text(a),$("#lista-tarefas").append(t),$("#tarefa").val("")});
